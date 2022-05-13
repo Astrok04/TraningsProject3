@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: azure;
+}
+
+.lager {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Areas {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 5%;
+}
+
+.AreasBack {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 5%;
+    grid-template-rows: repeat(2, 50%);
+}
+
+.AreasOther {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    column-gap: 10%;
+    row-gap: 5%;
+}
+
+.guider {
+    display: flex;
+    justify-content: center;
+}
+
+.träningsSaker {
+    display: flex;
+    width: 40%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bildGuide {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+}
+
+.texter {
+    margin-top: 25%;
+}
+
+.HuvudHeader {
+    margin: 2%;
+}
+
+.headerHöger {
+    display: flex;
+    justify-content: right;
+    margin-top: -6%;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 2%;
+    font-size: 150%;
+}
+
+
+
